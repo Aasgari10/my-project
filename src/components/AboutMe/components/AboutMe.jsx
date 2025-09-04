@@ -57,7 +57,7 @@ if (!found) {
             <ul className="top-right-list">
                 <li className='about-li'><a href='#ali-asgari'>INTRODUCTION</a></li>
                 <li className='main-li'><a href='#my-skills'>MY SKILLS</a></li>
-                <li className='phone-li'><a href='#my-skills'>MAIN PAGE</a></li>
+                <li className='phone-li'><a href='http://aasgari.click/'>MAIN PAGE</a></li>
                 <li className='li-right-phone'><a href='#details2'>INTRODUCTION</a></li>
                 <li className='li-right-phone-skills'><a href='#section2'>MY SKILLS</a></li>
                 <li className='li-right-phone'><a href='#section2'>MAIN PAGE</a></li>
@@ -156,7 +156,7 @@ if (!found) {
                             <img className='telegram'  src={insta} alt="Instagram"/>
                     </a>
                 </div>    
-                <a href="https://www.linkedin.com/in/your_username/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/ali-asgari-991827382/" target="_blank" rel="noopener noreferrer">
                     <img src={linkdin} alt="LinkedIn" className='telegram'/>
                 </a>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
