@@ -1,0 +1,1549 @@
+@media screen and (min-width: 1081px)  {
+      .bigContainer{ 
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200px; /* Change 'weight' to 'normal' or a specific number */
+        font-style: normal;
+        margin: 0px;
+        padding: 0px;
+        
+    } 
+
+    .li-right-phone-skills{display: none;}
+    .arrow-for-phone{display: none;}
+    .li-right-phone{display: none;}
+    html {
+        background: #fff;
+        scroll-behavior: smooth;
+    }
+
+    .skills-description-phone{
+        display: none;
+    }
+
+    .footer-tablet{
+        display: none;
+    }
+
+    .first-part-container {
+        background-image: url('../assets/pictures/clouths.jpg.jpg');
+        height: 880px; 
+        background-size: cover; 
+        background-position: center; 
+        position: relative; 
+    }
+
+    .center-dive {
+        position: absolute; /* Keep it absolutely positioned */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for element's own dimensions */
+        text-align: center; /* Center text inside the div */
+        color: white;
+    }
+
+        .bigContainer{background-color: white !important;}
+
+
+    .top-right-list {
+        position: absolute; /* Position it absolutely within the container */
+        top: 2rem; /* Distance from the top */
+        right: 1.5rem; /* Distance from the right */
+        display: flex; /* Use flexbox to arrange items in a row */
+        list-style-type: none; /* Remove default list styles */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+        background-color: transparent;
+        border-radius: 5px; 
+    }
+
+
+
+    .top-right-list li {
+        padding: 0px 3rem; /* Padding for list items */
+        line-height: 2.5;
+        font-weight: 380; /* Ensure this weight is supported */
+        font-size: 1.25em;
+        color: white;
+        letter-spacing: .2rem;
+        text-decoration: none 
+    }
+
+
+    .top-right-list li a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s ease;
+
+    }
+
+    .top-right-list li a:hover{
+          color: #63705a !important;
+  text-decoration: none;
+    }
+
+    .active {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: .2rem;
+        font-size: 2rem;
+        width: 100%;
+        color: #7a7272;
+        list-style: none;
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
+        font: inherit;  
+    }
+
+
+.mobiile-second-container{
+    display: none;
+}
+
+
+
+
+
+
+    .top-right-list li:last-child {
+        margin-right: 0; /* Remove margin from the last item */
+    }
+
+    .top-left-li {
+        position: absolute;
+        color: white;
+        list-style-type: none; /* Remove default list styles */
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+        line-height: 2.5;
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+
+    .center-dive {
+        margin-top: 2rem;
+    }
+
+    .center-dive hr {
+        width: 90%; /* Set the width to your desired size */
+        margin: 1.25rem auto; /* Center the hr and maintain vertical spacing */
+        border: 1px solid #E0E2E2; /* Optional: Set the border color */
+        display: block; /* Ensure it behaves as a block element */
+    }
+
+
+
+    .phone-h2{
+        display: none;
+    }
+    .center-dive h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 1.4rem;
+        letter-spacing: .2rem;
+    }
+
+    /* AboutMe.css */
+.second-part-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ background-color: white;
+  align-items: flex-start; /* تغییر کلیدی */
+}
+
+.rocks-container {
+  width: 50% !important; 
+  margin-left: 4rem;
+  position: relative;
+  overflow: hidden;
+  flex: 1; /* رشد متناسب با فضای موجود */
+  align-self: stretch; /* کشش عمودی */
+  height: 800px;
+}
+
+.profile-image {
+  height: 100%; /* Make image fill container */
+  width: 100%;
+  object-fit: cover;
+}
+    .rocks-container {
+        display: inline;
+    }
+
+.details {
+  margin: 4rem 0 0 6rem;
+  width: 37rem;
+  min-height: 100%; /* ارتفاع حداقل برابر با والد */
+  height: auto; /* ارتفاع تطبیقی با محتوا */
+}
+    .me-container {
+        margin-right: 4rem;
+    }
+
+    .details hr {
+        border: 0;
+        margin-top: 1.65rem;
+        margin-bottom: 1.65rem;
+        background-color: #a2866f;
+        height: 2px;
+    }
+
+    .details h3 {
+        color: #454545;
+        font-size: 1.15rem;
+        font-weight: 350;
+    }
+
+    .details p {
+        color: #454545;
+        font-size: 0.9rem;
+        font-weight: 350;
+        line-height: 1.75rem;    
+    }
+
+    .second-paragraph {
+        margin-top: 1.65rem;
+        margin-bottom: 1.65rem;
+    }
+
+    .third-paragraph {
+        margin-bottom: 4rem;
+    }
+
+    .third-part-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start; /* تغییر کلیدی */
+        background-color: white;
+    }
+
+    .me-container {
+      position: relative;
+    overflow: hidden;
+    flex: 1; /* رشد متناسب با فضای موجود */
+    align-self: stretch; /* کشش عمودی */
+    height: 610px;
+    }
+
+    .phone-par{
+        display: none;
+    }
+
+    .me-image {
+   height: 100%; /* Make image fill container */
+  width: 100%;
+  object-fit: cover;
+    }
+
+    .details-2 {
+        margin: 6rem 4rem 0rem 6rem;
+        max-width: 38rem;
+        min-height: 100%; /* ارتفاع حداقل برابر با والد */
+        height: auto; /* ارتفاع تطبیقی با محتوا */
+    }
+
+    .details-2 h3 {
+        color: #454545;
+        font-size: 1.15rem;
+        font-weight: 350;
+    }
+
+    .details-2 h4 {
+        color: #454545;
+        font-size: 0.825rem;
+        font-weight: 350;
+        font-style: italic;
+        margin-top: 0.80rem;
+    }
+
+    .details-2 hr {
+        border: 0;
+        margin-top: 0.825rem;
+        margin-bottom: 1.65rem;
+        background-color: #a2866f;
+        height: 2px;
+    }
+
+    .details-2 p {
+        color: #454545;
+        font-size: 0.9rem;
+        font-weight: 350;
+        line-height: 1.75rem;    
+    }
+
+    .row {
+        display: flex; /* Use Flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 11.7vh; /* Optional: Set a height for vertical centering */
+        text-align: center; /* Center text inside the p elements */
+        background-color: #c2b191 ;
+    }
+
+    .row p {
+        color: #FFFFFF;
+        margin: 0 2rem 0 2rem;
+        font-size: .84rem;
+    }
+
+    .footer {
+        display: flex; /* Use Flexbox */
+        flex-direction: row; /* Arrange children from left to right */
+        justify-content: flex-start; /* Align items to the start (left) */
+        gap: 20px; /* Optional: space between items */
+        height: auto;
+        background-color: #292929;
+    
+    }
+
+    .section { 
+        width: 33.3%;
+        text-align: left;
+        padding-top: 7rem;
+        padding-left: 6.5rem;
+    }
+
+    .section3 { 
+        width: 33.3%;
+        text-align: left;
+        padding-top: 7rem;
+        padding-left: 6.5rem;
+    }
+
+    .section2 { 
+        width: 33.3%;
+        text-align: left;
+        padding-top: 7rem;
+        padding-left: 6.5rem;
+    }
+
+
+
+    .footer hr {
+        width: 80%;
+        color: #5B5B5B;
+        border-bottom: none;
+        height: 1rem;
+        border-right: none;
+        margin-top: 1.5rem;
+        margin-bottom: .8rem;
+        border-left: none;
+    }
+
+    .footer h2 {
+        color: #C1C1C1;
+        letter-spacing: .2rem;
+    }
+
+    .footer h3 {
+        color: #A1866D;
+        font-size: .9rem;
+        margin-left: .2rem;
+    }
+
+    .address {
+        margin-top: 1rem;
+        margin-left: .2rem;
+        font-size: .9rem;
+        width: 85%;
+        color: #DDDDDD;
+    }
+
+    .yellow {
+        color: #A1866D;
+        font-size: .9rem;
+        margin-left: .2rem;
+        margin-top: 1rem;
+    }
+
+    .telegram {
+        display: inline;
+        width: 2rem;
+        margin-right: .5rem;
+    }
+
+    .link {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .contact {
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .adddress {
+        margin-left: .2rem;
+        font-size: .9rem;
+        width: 85%;
+        color: #DDDDDD;
+    }
+
+    .skills-description {
+        margin-left: .2rem;
+        font-size: .9rem;
+        width: 85%;
+        color: #DDDDDD;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        text-align: justify;
+    }
+
+    .skills-ul {
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-end; /* Align items to the right */
+        list-style-type: none; /* Remove bullet points */
+        padding: 0;    
+    }
+
+    .my-skills {
+        color: #292929;
+        text-align: right;
+        width: 100%;
+    }
+
+    .hr-skills {
+        margin-right: 5rem;
+    }
+
+    .button {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: .2rem;
+        font-size: 2rem;
+        width: 100%;
+        color: #DDDDDD;
+        list-style: none;
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
+        font: inherit;  
+    }
+
+    .my-skills button:hover {
+        opacity: 0.7; 
+    }
+
+    .active {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: .2rem;
+        font-size: 2rem;
+        width: 100%;
+        color: #c2b191;
+        list-style: none;
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
+        font: inherit;  
+    }
+
+    .mobile-third-part-container{
+        display: none;
+    }
+    /* Add to your existing CSS */
+    body {
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+}
+
+
+
+
+@media screen and (min-width: 791px) and (max-width: 1080px) {
+
+    * { 
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal; /* Change 'weight' to 'normal' or a specific number */
+        font-style: normal;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html {
+        background: #fff;
+                  scroll-behavior: smooth;
+ /* Match your page background color */
+    }
+        .top-right-list li a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s ease;
+
+    }
+
+    .top-right-list li a:hover{
+          color: #63705a !important;
+  text-decoration: none;
+    }
+
+    .skills-description-phone{
+        display: none;
+    }
+    .arrow-for-phone{
+        display: none;
+    }
+
+    .first-part-container {
+        background-image: url('../assets/pictures/clouths.jpg.jpg');
+        height: 110vh; 
+        background-size: cover; 
+        background-position: center; 
+        position: relative; 
+    }
+
+    .center-dive {
+        position: absolute; /* Keep it absolutely positioned */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for element's own dimensions */
+        text-align: center; /* Center text inside the div */
+        color: white;
+    }
+
+    .top-right-list {
+        position: absolute; /* Position it absolutely within the container */
+        top: 2rem; /* Distance from the top */
+        right: 1rem; /* Distance from the right */
+        display: flex; /* Use flexbox to arrange items in a row */
+        list-style-type: none; /* Remove default list styles */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+        background-color: transparent;
+        border-radius: 5px; 
+    }
+
+    .top-right-list li {
+        padding: 0px 2rem; /* Padding for list items */
+        line-height: 2.5;
+        font-weight: 380; /* Ensure this weight is supported */
+        font-size: 1.1em;
+        color: white;
+        letter-spacing: .2rem;
+    }
+
+    .about-li{display: none;}
+    .main-li{display: none;}
+    .phone-li{display: none;}
+    
+    .active {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: .2rem;
+        font-size: 2rem;
+        width: 100%;
+        color: #7a7272;
+        list-style: none;
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
+        font: inherit;  
+    }
+
+    .top-right-list li:last-child {
+        margin-right: 0; /* Remove margin from the last item */
+    }
+
+    .top-left-li {
+        position: absolute;
+        color: white;
+        list-style-type: none; /* Remove default list styles */
+        margin-left: 2.5rem;
+        margin-top: 1.5rem;
+        line-height: 2.5;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .center-dive {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .center-dive hr {
+        width: 60%; /* Set the width to your desired size */
+        margin: 1.25rem auto; /* Center the hr and maintain vertical spacing */
+        border: 1px solid #E0E2E2; /* Optional: Set the border color */
+        display: block; /* Ensure it behaves as a block element */
+    }
+
+    .phone-h2{display: none;}
+
+    .center-dive h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 1rem;
+        letter-spacing: .2rem;
+    }
+
+        .bigContainer{background-color: white !important;}
+
+
+    .mobile-profile-image{
+        height: 150vh; 
+        width: 100% !important;
+        display: none;
+    }
+
+    /* AboutMe.css */
+    .second-part-container {
+        display: none; /* Use Flexbox for layout */
+        justify-content: space-between; /* Space between items */
+        align-items: center; /* Center items vertically */
+    }
+
+    .rocks-container {
+        height: 120vh; 
+        width: 50% !important;
+        overflow: hidden; 
+        position: relative; 
+        margin-left: 4rem;
+    }
+
+
+    .skill-arrow{
+        margin-right: 0px !important;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        max-height: none; 
+    }
+
+    .rocks-container {
+        display: inline;
+    }
+
+    .details {
+        margin-top: 3rem; /* Remove any top margin */
+        margin-bottom: auto; /* Push it to the top */
+        width: 97%;
+        margin-left: 1rem;
+    }
+
+  .section2{width: 45% !important;}
+  .section{width: 50% !important}
+
+    .details hr {
+        border: 0;
+        margin-top: 1.65rem;
+        margin-bottom: 1.65rem;
+        background-color: #a2866f;
+        height: 2px;
+    }
+
+
+
+    .details h3 {
+        color: #454545;
+        font-size: 1.15rem;
+        font-weight: 350;
+    }
+
+    .details p {
+        color: #454545;
+        font-size: 0.7rem;
+        font-weight: 350;
+        line-height: 1.4rem;    
+    }
+
+    .second-paragraph {
+        margin-top: 1.65rem;
+        margin-bottom: 1.65rem;
+    }
+
+    .third-paragraph {
+        margin-bottom: 4rem;
+    }
+
+    .third-part-container {
+display: none;
+    }
+
+    .me-container {
+        height: 85vh; 
+        width: 97% ;
+        overflow: hidden; 
+        position: relative;
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+
+    .me-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        max-height: none; 
+    }
+
+    .details-2 {
+       margin-top: 3rem; /* Remove any top margin */
+        margin-bottom: 6rem; /* Push it to the top */
+        width: 97%;
+        margin-left: 1rem;
+    }
+
+
+    .phone-par{
+        display: none;
+    }
+
+    .details-2 h3 {
+        color: #454545;
+        font-size: 1.15rem;
+        font-weight: 350;
+    }
+
+    .details-2 h4 {
+        color: #454545;
+        font-size: 0.825rem;
+        font-weight: 350;
+        font-style: italic;
+        margin-top: 0.80rem;
+    }
+
+    .details-2 hr {
+        border: 0;
+        margin-top: 0.825rem;
+        margin-bottom: 1.65rem;
+        background-color: #a2866f;
+        height: 2px;
+    }
+
+
+
+
+
+    
+    .details-2 p {
+        color: #454545;
+        font-size: 0.7rem;
+        font-weight: 350;
+        line-height: 1.4rem;        
+    }
+
+
+    .row {
+        display: flex; /* Use Flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 11.7vh; /* Optional: Set a height for vertical centering */
+        text-align: center; /* Center text inside the p elements */
+        background-color: #c2b191 ;
+    }
+
+    .row p {
+        color: #FFFFFF;
+        margin: 0 2rem 0 2rem;
+        font-size: .84rem;
+    }
+
+    .footer-tablet {
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Arrange children from left to right */
+        justify-content: flex-start; /* Align items to the start (left) */
+        background-color: #292929;
+        height: auto;
+        margin-left: -3.5rem;
+    }
+
+
+    .address-tablet{
+        margin-left:5.75rem;
+        margin-bottom: 3rem;
+    }
+
+    .inner-footer-tablet{
+        display: flex; /* Use Flexbox */
+        flex-direction: row; /* Arrange children from left to right */
+        justify-content: flex-start; /* Align items to the start (left) */
+        background-color: #292929;
+        height: auto;        
+
+    }
+
+
+    .section { 
+        width: 45%;
+        text-align: left;
+        padding-top: 7rem;
+        padding-left: 5.5rem;
+    }
+    .section2{width: 41%;
+        text-align: left;
+        padding-top: 7rem;}
+
+    .footer-tablet hr {
+        width: 100%;
+        color: #5B5B5B;
+        border-bottom: none;
+        height: 1rem;
+        border-right: none;
+        margin-top: 1.5rem;
+        margin-bottom: .8rem;
+        border-left: none;
+    }
+
+.how-to-contact-mem{
+    display: none;
+}
+
+
+    .footer-tablet h2 {
+        color: #C1C1C1;
+        letter-spacing: .2rem;
+    }
+
+
+    .footer-tablet h3 {
+        color: #A1866D;
+        font-size: .9rem;
+        margin-left: .2rem;
+    }
+
+    .address {
+        margin-top: 1rem;
+        margin-left: .2rem;
+        font-size: .9rem;
+        width: 85%;
+        color: #DDDDDD;
+    }
+
+
+    
+
+    .yellow {
+        color: #A1866D;
+        font-size: .9rem;
+        margin-left: .2rem;
+        margin-top: 1rem;
+    }
+
+    .telegram {
+        display: inline;
+        width: 2rem;
+        margin-right: .5rem;
+    }
+
+    .link {
+        margin: 1rem 0 1rem 0;
+    }
+
+
+    
+    .skills-description-phone{
+        display: none;
+    }
+
+    .contact {
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .adddress {
+        margin-left: .2rem;
+        font-size: .9rem;
+        width: 85%;
+        color: #DDDDDD;
+    }
+
+    .skills-description {
+        margin-left: .2rem;
+        font-size: .9rem;
+        width: 90%;
+        color: #DDDDDD;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        text-align: justify;
+    }
+
+    .skills-ul {
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-end; /* Align items to the right */
+        list-style-type: none; /* Remove bullet points */
+        padding: 0;    
+    }
+
+    .my-skills {
+        color: #292929;
+        text-align: right;
+        width: 95%;
+    }
+
+    .section hr{width: 92%;}
+    .section2 h2{margin-left: 1.05rem;}
+    .section2-hr{width: 95% !important;
+    margin-left: 1.1rem;}
+
+    .hr-skills {
+        margin-right: 5rem;
+    }
+
+    .button {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: space-between;
+        margin-top: .4rem;
+        margin-left: .2rem;
+        font-size: 2rem;
+        width: 100%;
+        color: #DDDDDD;
+        list-style: none;
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
+        font: inherit;  
+    }
+
+    .my-skills button:hover {
+        opacity: 0.7; 
+    }
+
+    .footer{display: none;}
+    .active {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: .2rem;
+        font-size: 2rem;
+        width: 100%;
+        color: #DDDDDD;
+        list-style: none;
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
+        font: inherit;  
+    }
+
+    .phone-hr-footer-contact{width: 95% !important;}
+    /* Add to your existing CSS */
+    body {
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+}
+
+
+@media screen and (max-width: 791px) {
+
+    * { 
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal; /* Change 'weight' to 'normal' or a specific number */
+        font-style: normal;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .li-right-phone{display: none;}
+        .li-right-phone-skills{
+        display: block;
+        padding: 0px 2rem; /* Padding for list items */
+        line-height: 2.5;
+        font-weight: 380; /* Ensure this weight is supported */
+        font-size: .8rem;
+        color: white;
+        letter-spacing: .2rem;}
+        
+    html {
+        background: #fff;
+        scroll-behavior: smooth;
+ /* Match your page background color */
+    }
+        .main-li{display: none !important;}
+
+    .first-part-container {
+        background-image: url('../assets/pictures/clouths.jpg.jpg');
+        height: 110vh; 
+        background-size: cover; 
+        background-position: center; 
+        position: relative; 
+    }
+
+    .center-dive {
+        position: absolute; /* Keep it absolutely positioned */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for element's own dimensions */
+        text-align: center; /* Center text inside the div */
+        color: white;
+    }
+
+    .top-right-list {
+        position: absolute; /* Position it absolutely within the container */
+        top: 1.8em; /* Distance from the top */
+        right: 1rem; /* Distance from the right */
+        display: flex; /* Use flexbox to arrange items in a row */
+        list-style-type: none; /* Remove default list styles */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+        background-color: transparent;
+        flex-direction: column; /* Change to column layout */
+        border-radius: 5px; 
+    }
+
+    .phone-li{
+        display: block;
+        padding: 0px 2rem; /* Padding for list items */
+        line-height: 2.5;
+        font-weight: 380; /* Ensure this weight is supported */
+        font-size: .8rem;
+        color: white;
+        letter-spacing: .2rem;
+    }
+
+
+   .main-li{
+        display: block;
+        padding: 0px 2rem; /* Padding for list items */
+        line-height: 2.5;
+        font-weight: 380; /* Ensure this weight is supported */
+        font-size: .8rem;
+        color: white;
+        letter-spacing: .2rem;
+   }
+
+
+
+    .top-right-list li:last-child {
+        margin-right: 0; /* Remove margin from the last item */
+    }
+
+    .top-left-li {
+        position: absolute;
+        color: white;
+        list-style-type: none; /* Remove default list styles */
+        margin-left: 2.5rem;
+        margin-top: 1.5rem;
+        line-height: 2.5;
+        font-weight: 400;
+        font-size: 1.rem;
+    }
+
+    .center-dive {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+
+    .pc-h2{display: none;}
+
+    .about{
+        display: none;
+    }
+
+    .center-dive hr {
+        width: 63%; /* Set the width to your desired size */
+        margin: 1.25rem auto; /* Center the hr and maintain vertical spacing */
+        border: 1px solid #E0E2E2; /* Optional: Set the border color */
+        display: block; /* Ensure it behaves as a block element */
+    }
+
+
+
+    .center-dive h2 {
+        color: white;
+        font-weight: 300;
+        font-size: 1rem;
+        letter-spacing: .2rem;
+    }
+
+
+    .mobile-profile-image{
+        height: 150vh; 
+        width: 100% !important;
+        display: none;
+    }
+
+
+    .phone-li{display: none;}
+
+
+    .second-part-container {
+        display: none; /* Use Flexbox for layout */
+        justify-content: space-between; /* Space between items */
+        align-items: center; /* Center items vertically */
+    }
+
+    .skill-arrow{
+        display: none;
+    }
+
+    .arrow-for-phone{
+        width: .9rem;
+        margin-right: 1.6rem;
+    }
+    .rocks-container {
+        height: 120vh; 
+        width: 50% !important;
+        overflow: hidden; 
+        position: relative; 
+        margin-left: 4rem;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        max-height: none; 
+    }
+
+    .rocks-container {
+        display: none;
+    }
+
+    .details {
+        margin-top: 3rem; /* Remove any top margin */
+        margin-bottom: auto; /* Push it to the top */
+        width: 95%;
+        margin-left: 1.25rem;
+    }
+
+  
+
+    .details hr {
+        border: 0;
+        margin-top: 1.65rem;
+        margin-bottom: 1.65rem;
+        background-color: #a2866f;
+        height: 2px;
+    }
+
+
+
+    .details h3 {
+        color: #454545;
+        font-size: 1.1rem;
+        font-weight: 350;
+    }
+
+    .details p {
+        color: #454545;
+        font-size: 0.7rem;
+        font-weight: 350;
+        line-height: 1.4rem;    
+    }
+
+    .second-paragraph {
+        margin-top: 1.65rem;
+        margin-bottom: 1.65rem;
+    }
+
+    .third-paragraph {
+        margin-bottom: 4rem;
+    }
+
+    .third-part-container {
+display: none;
+    }
+
+    .me-container {
+        height: 50vh; 
+        width: 95% ;
+        overflow: hidden; 
+        position: relative;
+        margin-left: 1.25rem;
+        margin-top: 3rem;
+    }
+
+
+    .about-li{
+        display: none;
+    }
+
+
+    .me-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        max-height: none; 
+    }
+
+    .details-2 {
+       margin-top: 3rem; /* Remove any top margin */
+        margin-bottom: auto; /* Push it to the top */
+        width: 95%;
+        margin-left: 1.25rem;
+    }
+
+    .details-2 h3 {
+        color: #454545;
+        font-size: 1.15rem;
+        font-weight: 350;
+    }
+
+    .details-2 h4 {
+        color: #454545;
+        font-size: 0.825rem;
+        font-weight: 350;
+        font-style: italic;
+        margin-top: 0.80rem;
+    }
+
+    .details-2 hr {
+        border: 0;
+        margin-top: 0.825rem;
+        margin-bottom: 1.65rem;
+        background-color: #a2866f;
+        height: 2px;
+    }
+
+
+
+    
+
+    
+    .details-2 p {
+        color: #454545;
+        font-size: 0.7rem;
+        font-weight: 350;
+        line-height: 1.4rem;        
+    }
+
+    .row {
+        display: flex; /* Use Flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 11.7vh; /* Optional: Set a height for vertical centering */
+        text-align: center; /* Center text inside the p elements */
+        background-color: #c2b191 ;
+        margin-top: 4rem;
+    }
+
+    .phone-par {
+        color: #FFFFFF;
+        margin: 0 2rem 0 2rem;
+        letter-spacing: .2rem;
+        font-size: .7rem;
+    }
+
+    .no-phone-par{
+        display: none;
+    }
+
+    .footer-tablet {
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Arrange children from left to right */
+        justify-content: flex-start; /* Align items to the start (left) */
+        gap: 20px; 
+        background-color: #292929;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .address-tablet{
+        margin-left:  2rem;
+        margin-bottom: 3rem;
+        width: 95%;
+    }
+
+    .inner-footer-tablet{
+        display: flex; /* Use Flexbox */
+        flex-direction: row; /* Arrange children from left to right */
+        justify-content: flex-start; /* Align items to the start (left) */
+        gap: 20px; /* Optional: space between items */
+        background-color: #292929;
+        height: auto;    
+            
+    }
+    .section { 
+        width: 45%;
+        text-align: left;
+        padding-top: 7rem;
+        padding-left: 5.5rem;
+    }
+    .section2{width: 95%;
+        text-align: left;
+        padding-top: 7rem;
+        padding-left: 1.5rem;
+        margin-bottom: 6rem;}
+
+
+        .section2-hr{
+            width: 99.1% !important;
+        }
+
+
+     
+
+    .footer-tablet hr {
+        width: 95%;
+        color: #5B5B5B;
+        border-bottom: none;
+        height: 1rem;
+        border-right: none;
+        margin-top: 1.5rem;
+        margin-bottom: .8rem;
+        border-left: none;
+    }
+
+.how-to-contact-mem{
+    display: none;
+}
+
+
+
+    .footer-tablet h2 {
+        color: #DCDCDC;
+        letter-spacing: .2rem;
+        font-size: .9rem;
+    }
+
+
+    .footer-tablet h3 {
+        color: #A1866D;
+        font-size: .8rem;
+        margin-left: .2rem;
+    }
+
+    .address {
+        margin-top: 1rem;
+        font-size: .7rem;
+        width: 90%;
+        color: #DDDDDD;
+    }
+
+
+    
+
+    .yellow {
+        color: #A1866D;
+        font-size: .77rem;
+        margin-left: .2rem;
+        margin-top: 1rem;
+    }
+
+    .telegram {
+        display: inline;
+        width: 2rem;
+        margin-right: .5rem;
+    }
+
+    .link {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .contact {
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .adddress {
+        margin-left: .2rem;
+        font-size: .77rem;
+        width: 100%;
+        color: #DDDDDD;
+    }
+
+    .skills-description {
+        font-size: .7rem;
+        width: 95%;
+        color: #DDDDDD;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        text-align: justify;
+    }
+
+    .skills-ul {
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-end; /* Align items to the right */
+        list-style-type: none; /* Remove bullet points */
+        padding: 0;    
+    }
+
+    .my-skills {
+        color: #292929;
+        text-align: right;
+        width: 100%;
+    }
+
+
+    .phone-hr-footer-contact{
+        
+        width: 96.9% !important;
+        margin-left: -0.1rem !important;
+    }
+
+
+    .section3{
+        margin-right: 1.4rem;
+    }
+
+
+    .button {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: .2rem;
+        width: 100%;
+        color: #DDDDDD;
+        list-style: none;
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
+        font: inherit;  
+        font-size: .8rem;
+    }
+
+    .my-skills button:hover {
+        opacity: 0.7; 
+    }
+
+    
+    .footer{display: none;}
+    .active {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: .2rem;
+        font-size: .8rem !important;
+        width: 100%;
+        color: #DDDDDD;
+        list-style: none;
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
+        font: inherit;  
+    }
+
+    .mobiile-second-container{
+        padding-right: 1.295rem;
+         background-color: white;
+
+    }
+    .mobile-third-part-container{
+        padding-right: 1.295rem;
+         background-color: white;
+
+    }
+
+    #section2{
+        margin-left: .4rem;
+                margin-right: 1.6rem;
+
+    }
+
+
+    .hr-skills{width: 99.15% !important; }
+    .skills-description-phone{
+        margin-left: .2rem;
+        font-size: .7rem;
+        width: 95%;
+        color: #DDDDDD;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        text-align: justify;
+        margin-bottom: 2rem;
+    }
+
+    #hr-contact-me{
+        margin-left: 2rem;
+    }
+
+    .bigContainer{background-color: white !important;}
+    .section{display: none;}
+
+    body {
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+        color: white;
+    }
+
+        .top-right-list li a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s ease;
+
+    }
+
+a {
+  -webkit-tap-highlight-color: transparent;  /* Remove mobile tap highlight */
+  -webkit-user-select: none;                 /* Optional: Prevent text selection */
+  user-select: none;                         /* Optional: Prevent text selection */
+}
+
+
+button {
+  -webkit-tap-highlight-color: transparent;  /* Remove tap highlight */
+  -webkit-user-select: none;                  /* Prevent text selection */
+  user-select: none;                         /* Standard syntax */
+  touch-action: manipulation;                /* Optimize touch response */
+}
+
+/* Handle active/focus states */
+button:active,
+button:focus {
+  outline: none;              /* Remove focus outline */
+}
+
+/* Optional: Add custom feedback */
+button:active {
+  transform: scale(0.98);     /* Subtle press effect */
+  filter: brightness(0.95);   /* Visual feedback */
+}
+
+/* Optional: If you want to maintain consistent link colors */
+a:active,
+a:visited,
+a:focus {
+  color: inherit;         /* Use parent's text color */
+  text-decoration: none;  /* Remove underline */
+}
+
+
+    .top-right-list li a:hover{
+          color: #63705a !important;
+  text-decoration: none;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+}
+
+
+
+   
+
+.address-tablet{
+    padding-right: .8rem !important;
+}

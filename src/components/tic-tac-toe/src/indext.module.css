@@ -1,0 +1,69 @@
+/* indext.module.css */
+/* Global Container Styles */
+.bigContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 2rem;
+}
+
+
+.ccontainer {
+  width: 100%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  padding: 2rem;
+}
+
+/* Game Board Enhancements */
+.gameContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  position: relative;
+}
+
+.players {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .bigContainer {
+    padding: 1rem;
+  }
+
+  
+  .ccontainer {
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  .gameContainer {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+
+
+
+/* Winning State Visualization */
+:global(.winning-cell) {
+  position: relative;
+  animation: pulseWin 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseWin {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}

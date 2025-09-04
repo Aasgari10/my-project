@@ -1,0 +1,15 @@
+import classes from '../indextic.module.css'
+
+export default function GameOver({winner ,onRestart}){
+    return(
+        <div id = {classes.gameOver}>
+            <h2>Game Over!</h2>
+           {winner && <p>{winner} Won! </p>}
+           {!winner && <p> Draw!
+             </p>}
+
+            <p><button onClick={onRestart}>Rematch!</button></p>
+        </div>
+    )
+
+}

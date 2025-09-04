@@ -1,0 +1,123 @@
+/* ===== Global Reset & Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 
+               'Segoe UI', Roboto, Oxygen, Ubuntu, 
+               Cantarell, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #271A41, #551934);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Header Styles ===== */
+.header {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.headerH1 {
+  color: #fa4853;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: clamp(3rem, 8vw, 5rem);
+  letter-spacing: clamp(0.1rem, 0.5vw, 0.2rem);
+  text-align: center;
+  line-height: 1.2;
+}
+
+.froMme {
+  color: #fa4853;
+  font-family: Courier New, Courier, monospace;
+  font-weight: 500;
+  letter-spacing: 0.12rem;
+  font-size: clamp(1.2rem, 3vw, 1.9rem);
+  display: block;
+  
+}
+
+/* ===== Projects List ===== */
+.myProjectsUl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 80%;
+  max-width: 600px;
+  margin: 2rem auto;
+  margin-top: 1rem;
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  display: block;
+  transition: transform 0.2s ease;
+  text-decoration: none;
+list-style-type: none;  
+
+}
+
+.btn {
+  background: #FA4853;
+  border: 2px solid #FA4853;
+  padding: clamp(0.8rem, 2vw, 1rem) clamp(1.5rem, 4vw, 2rem);
+  border-radius: 50px;
+  color: #fff;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.btn:hover {
+  background: rgba(255,255,255,0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(250,72,83,0.3);
+}
+
+/* ===== Layout Structure ===== */
+.container {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+
+@media (max-width: 600px) {
+.headerH1 {
+  color: #fa4853;
+font-family: 'Cinzel', Copperplate, 
+             'Eagle Lake', Papyrus, 
+             fantasy, system-ui;  font-size: clamp(3rem, 8vw, 5rem);
+  letter-spacing: clamp(0.1rem, 0.5vw, 0.2rem);
+  text-align: center;
+  line-height: 1.2;
+}
+.header{
+    margin: 0 !important;
+    padding: 0;
+}
+
+.myProjectsUl{
+    width: 75%;
+}
+}
+
