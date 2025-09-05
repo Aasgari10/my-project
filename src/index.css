@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #ebe7ef;
+  background: radial-gradient(#FF6F61,#6A5ACD);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+}
+
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+}
+
+
+main h2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 1.5rem 0;
+  color: #2E8B57;
+}
+
+
+
+
+#svgs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+    background-color: #ffe4b5;
+
+}
+
+#svgs li {
+  width: 10rem;
+  text-align: center;
+}
+
+#svgs li img {
+margin-top: 2rem;
+  height: 7rem;
+  width: 7rem;
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+  object-fit: cover;
+}
+
+#svgs li h3 {
+  margin: 0.5rem 0;
+  color: #4b2c20;
+}
+
+#svgs li p {
+  font-size: 0.9rem;
+}
+
+#examples {
+  margin: 3rem auto;
+  
+}
+
+#examples h2 {
+  text-align: left;
+  color: #ffe4b5;
+}
+
+#examples menu {
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+#examples menu button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #ffe4b5;
+  color: #4b2c20;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#examples menu button:hover {
+  background-color:#ffd700;
+  color: #ffffff;
+}
+
+#examples menu button.active {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+#tab-content {
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #ffe4b5;
+  box-shadow: 0 4px  rgba(0, 0, 0, 0.2);
+  color: #4b2c20;
+}
+
+#tab-content h3 {
+  margin: 0;
+  display: inline-block; /* Allows the text to be animated */
+    overflow: hidden; /* Hides the text that is not yet revealed */
+    white-space: nowrap; /* Prevents text from wrapping */
+    border-right: 2px solid; /* Creates a cursor effect */
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+    color: #333333;
+}
+
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 20%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: transparent; }
+}
+
+
+
+
+
+
+.image-gallery {
+    text-align: center;
+}
+
+/* Hide the gallery on larger screens */
+@media (min-width: 10px) {
+    .image-gallery {
+        display: none; /* Hide gallery on screens larger than 768px */
+    }
+}
+
+.gallery-container {
+    position: relative;
+    display: inline-block; /* Center the gallery */
+    background-color: rgb(255, 228, 181); /* Background color for the image */
+    border-radius: 10px; /* Optional: rounded corners */
+    overflow: hidden; /* Hide overflow */
+    width: 100%; /* Take full width on mobile */
+    max-width: 100%; /* Prevent overflow */
+    padding: 10px; /* Add some padding */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center vertically */
+    width: 100%;
+}
+
+.gallery-image {
+    max-width: 25%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+}
+
+.gallery-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 1rem; /* Adjust size of arrows */
+    color: #000; /* Color of the arrows */
+    cursor: pointer;
+    z-index: 1; /* Ensure buttons are above the image */
+}
+
+.left {
+    left: 10px; /* Positioning for left button */
+}
+
+.right {
+    right: 10px; /* Positioning for right button */
+}
+
+
+@media (max-width: 1100px) {
+    #svgs ul {
+        display: none; /* Hide gallery on screens larger than 768px */
+    }
+}
+
+
