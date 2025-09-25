@@ -2,4 +2,4 @@ This project is a collection of all my React and JavaScript projects, which are 
 "The link below represents the live/production version of this project, built from its source code."  
 لبنک زیر نشاندهنده نسخه عملیاتی این پروژه که از کدهای منبع آن ساخته شده است می لاشد.
 
-aasgari.click
+asgari.click
