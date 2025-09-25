@@ -357,7 +357,6 @@
   font-size: 1.6rem;
   color: #7d7d7d;
   margin-top: -0.7rem;
-  margin-left: 0.4rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
 }
@@ -367,7 +366,6 @@
   font-size: 1.6rem;
   color: #771961;
   margin-top: -0.7rem;
-  margin-left: 0.4rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
 }
@@ -377,7 +375,6 @@
   font-size: 1.6rem;
   color: #054E37;
   margin-top: -0.7rem;
-  margin-left: 0.4rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
 }
@@ -392,3 +389,101 @@
     transform: translateY(0);
   }
 }
+
+
+@media (min-width: 48px) and (max-width: 740px) {
+
+.header-history h1 {
+  font-size: 2rem;
+  
+}
+
+.starting-page-history h3 {
+  font-family: "Rubic";
+  font-size: 1.4rem;
+
+}
+
+.starting-page-history button {
+
+  font-family: 'Rubic';
+  font-size: 1rem;
+  
+}
+
+#summary-history h2 {
+  font-size: 2.5rem;
+
+}
+
+#question-history h2 {
+  font-size: 1rem;
+  width: 100%;
+ line-height: 2rem;
+}
+
+
+.answer-history button {
+  font-size: .9rem;
+  line-height: 2rem;
+  padding: 1rem  1rem;
+  width: 100%;
+} 
+.answer-history {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#summary-history .question-history {
+  font-size: 1.2rem;
+}
+
+#summary-history .user-answer-history.correct-history {
+  font-size: 1rem;
+
+}
+#summary-history .user-answer-history.wrong-history {
+  color: #730b4b;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0.7rem;
+}
+
+#summary-history .user-answer-history.skipped-history {
+  font-size: 1rem;
+
+}
+
+#summary-stats-history {
+  display: flex;
+  gap: 1.7rem;
+  width: 60%;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #594276;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center;     /* Vertical alignment (optional) */
+}
+
+  #summary-stats-history .text2-history {
+  font-size: 1.4rem;
+  margin: 0rem 0rem
+}
+
+#summary-stats-history .text3-history {
+  font-size: 1.4rem;
+    margin: 0rem 0rem
+}
+
+
+#summary-stats-history .text1-history {
+  font-size: 1.4rem;
+  white-space: nowrap;
+  margin: 0rem 0rem
+}
+#summary-stats-history .number-history {
+  font-size: 1.7rem;
+}
+}
+
+
