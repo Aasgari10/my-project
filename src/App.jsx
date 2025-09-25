@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe/components/AboutMe.jsx';
 import Thetictactoe from './components/tic-tac-toe/Thetictactoe.jsx';
 import Invesment from './components/InvesmentProject/src/Invesment.jsx';
 import CountDown from './components/countdown/src/CountDown.jsx';
+import Quizz from './components/Quiz/src/Quizz.jsx';
 function App() {
   return (
     <Router basename="/">
@@ -13,6 +14,7 @@ function App() {
         <Route path="/tic-tac-toe" element={<Thetictactoe />} />
         <Route path="/Invesment-calculator" element={<Invesment />} />
         <Route path="/count-down" element={<CountDown />} />
+        <Route path="/quiz" element={<Quizz />} />
         <Route path="*" element={<div>404 - Page Not Found</div>} />
       </Routes>
     </Router>

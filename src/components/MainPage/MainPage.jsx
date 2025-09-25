@@ -15,7 +15,8 @@ export default function Main() {
         <Link className={classes.links} to='/tic-tac-toe'><li><button className={classes.btn}><a className={classes.links}>Tic-Tac-Toe</a></button></li></Link>
         <Link className={classes.links} to='/Invesment-calculator'><li><button className={classes.btn}><a className={classes.links}>Investment Calculator</a></button></li></Link>
         <Link className={classes.links} to='/count-down'><li><button className={classes.btn}><a className={classes.links}>Count Down</a></button></li></Link>
-      </ul>
+        <Link className={classes.links} to='/quiz'><li><button className={classes.btn}><a className={classes.links}>Quiz</a></button></li></Link>
+    </ul>
       </div>
     </div>
     </div>
