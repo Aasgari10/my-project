@@ -104,9 +104,7 @@ list-style-type: none;
 @media (max-width: 600px) {
 .headerH1 {
   color: #fa4853;
-font-family: 'Cinzel', Copperplate, 
-             'Eagle Lake', Papyrus, 
-             fantasy, system-ui;  font-size: clamp(3rem, 8vw, 5rem);
+font-family: "san-sarif" !important;  font-size: clamp(2.8rem, 7.8vw, 4.8rem);
   letter-spacing: clamp(0.1rem, 0.5vw, 0.2rem);
   text-align: center;
   line-height: 1.2;

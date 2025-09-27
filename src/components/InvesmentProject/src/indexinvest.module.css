@@ -133,7 +133,14 @@
  }
 
 
-
+#userInput label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #34495e;
+  font-size: .92rem;
+}
 
  
  .resultContainer{
